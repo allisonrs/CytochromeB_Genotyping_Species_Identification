@@ -15,3 +15,8 @@ Prior to running the program, ensure the following:
   all .fasta files are in a dedicated folder. Manually set the folder location in each of the scripts (Python and CMD)
   
   all python scripts are located in working Python folder, and that the Python folder is correctly set in the CMD script.     
+
+To run the program, execute the CMD script. The CMD script will call the .py scripts. Once the merged, sorted file is generated, 
+The program will pause to allow for execution of NCBI BLAST.
+Download the resulting XML file containing all the results and place in the same folder with the .fasta files. 
+The program will continue once the XML file is in folder (you ensure that it is in place).
